@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from 'react-icons/fa';
 
-const Menu = () => {
+const Navigation = () => {
   return (
   
 
@@ -39,4 +39,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default Navigation

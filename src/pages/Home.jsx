@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '../components/menu/menu'
+import Menu from '../components/navigation'
 import Banner from '../components/banner/Banner'
 import Feature from '../components/feature/Feature'
 import Popular from '../components/popular/Popular'
