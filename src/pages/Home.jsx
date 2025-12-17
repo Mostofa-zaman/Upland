@@ -3,6 +3,8 @@ import Menu from '../components/menu/menu'
 import Banner from '../components/banner/Banner'
 import Feature from '../components/feature/Feature'
 import Popular from '../components/popular/Popular'
+import Presentation from '../components/prsentation/Presentation'
+import Easy from '../components/easy/Easy'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
     <Banner/>
     <Feature/>
     <Popular/>
+    <Presentation/>
+    <Easy/>
     </>
   )
 }
