@@ -4,7 +4,7 @@ import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 
 const PresentationCardTwo = () => {
   return (
-    <div className="relative w-[375px] h-[690px] mx-auto bg-white rounded-[40px] shadow-xl overflow-hidden">
+    <div className="relative w-[375px] h-[690px] -z-30 mx-auto bg-white rounded-[40px] shadow-xl overflow-hidden">
       {/* Header */}
       <div className="flex items-center justify-between px-6 pt-6">
         <FiArrowLeft className="text-xl text-gray-800" />

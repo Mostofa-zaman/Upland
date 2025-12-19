@@ -1,4 +1,7 @@
 import PresentaionCardOne from "../reusable/PresentaionCardOne";
+import PresentationCardFive from "../reusable/PresentationCardFive";
+import PresentationCardFour from "../reusable/PresentationCardFour";
+import PresentationCardThree from "../reusable/PresentationCardThree";
 import PresentationCardTwo from "../reusable/PresentationCardTwo";
 
 const Presentation = () => {
@@ -13,11 +16,29 @@ const Presentation = () => {
         <h1 className="text-[50px] font-semibold text-white text-center mb-12">
           Watch our UI presentation
         </h1>
-<div className=" grid grid-cols-2 gap-4">
-  
-        <PresentaionCardOne />
-        <PresentationCardTwo/>
-</div>
+
+        {/* Cards */}
+        <div className="relative grid grid-cols-5 gap-4">
+          <div className="relative transition-all duration-300 hover:scale-105 hover:z-50">
+            <PresentationCardFour />
+          </div>
+
+          <div className="relative transition-all duration-300 hover:scale-105 hover:z-50">
+            <PresentationCardThree />
+          </div>
+
+          <div className="relative transition-all duration-300 hover:scale-105 hover:z-50">
+            <PresentaionCardOne />
+          </div>
+
+          <div className="relative transition-all duration-300 hover:scale-105 hover:z-50">
+            <PresentationCardTwo />
+          </div>
+
+          <div className="relative transition-all duration-300 hover:scale-105 hover:z-50">
+            <PresentationCardFive />
+          </div>
+        </div>
       </div>
     </section>
   );
