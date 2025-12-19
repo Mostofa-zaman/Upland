@@ -7,9 +7,9 @@ const Popular = () => {
         "Culpa non ex tempor qui nulla laborum. Laboris culpa ea incididunt dolore ipsum tempor duis do ullamco eiusmod officia magna ad id."
     ];
   return (
-    <div>
+ 
 
-<section className="py-20 bg-white">
+<section className="py-20  mb-10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left Content / Illustration */}
@@ -42,7 +42,6 @@ const Popular = () => {
       </div>
     </section>
 
-    </div>
   )
 }
 
