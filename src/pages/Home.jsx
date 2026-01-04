@@ -5,6 +5,7 @@ import Feature from '../components/feature/Feature'
 import Popular from '../components/popular/Popular'
 import Presentation from '../components/prsentation/Presentation'
 import Easy from '../components/easy/Easy'
+import Download from '../components/download/Download'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <Popular/>
     <Presentation/>
     <Easy/>
+    
     </>
   )
 }
