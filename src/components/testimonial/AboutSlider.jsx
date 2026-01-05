@@ -41,13 +41,13 @@ const AboutSlider = () => {
           <div className="flex gap-3">
             <button
               ref={prevRef}
-              className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center hover:bg-green-700 transition"
+              className="w-15 h-15 rounded-full bg-orange-500 text-white flex items-center justify-center hover:bg-green-700 transition"
             >
               ←
             </button>
             <button
               ref={nextRef}
-              className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center hover:bg-green-700 transition"
+              className="w-15 h-15 rounded-full bg-orange-500 text-white flex items-center justify-center hover:bg-green-700 transition"
             >
               →
             </button>
