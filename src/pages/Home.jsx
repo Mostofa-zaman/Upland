@@ -5,6 +5,7 @@ import Feature from '../components/feature/Feature'
 import Popular from '../components/popular/Popular'
 import Presentation from '../components/prsentation/Presentation'
 import Easy from '../components/easy/Easy'
+import AboutSlider from '../components/testimonial/AboutSlider'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
     <Popular/>
     <Presentation/>
     <Easy/>
+    <AboutSlider/>
     
     </>
   )
