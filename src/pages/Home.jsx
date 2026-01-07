@@ -6,6 +6,7 @@ import Popular from '../components/popular/Popular'
 import Presentation from '../components/prsentation/Presentation'
 import Easy from '../components/easy/Easy'
 import AboutSlider from '../components/testimonial/AboutSlider'
+import Get300 from '../components/get300/Get300'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
     <Presentation/>
     <Easy/>
     <AboutSlider/>
+    <Get300/>
     
     </>
   )
