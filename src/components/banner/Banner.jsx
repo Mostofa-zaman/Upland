@@ -10,8 +10,8 @@ const Banner = () => {
 
 
 
-    <section className="  bg-cover bg-center bg-[#2A2895] pt-32 pb-20 lg:pt-40 lg:pb-32 relative ">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-between">
+    <section className=" bg-cover bg-center bg-[#2A2895] pt-32 pb-20 lg:pt-40 lg:pb-32 relative ">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
         
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0 relative z-10">
