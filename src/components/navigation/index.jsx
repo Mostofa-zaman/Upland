@@ -1,10 +1,8 @@
-import { FaPhoneAlt } from 'react-icons/fa';
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-  
-
-<header className="absolute top-0 left-0 right-0 z-10 py-4 px-6 md:px-12 lg:px-24">
+    <header className="absolute top-0 left-0 right-0 z-10 py-4 px-6 md:px-12 lg:px-24 bg-sky-700  fixed">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-white text-2xl font-bold tracking-wider">
@@ -13,11 +11,37 @@ const Navigation = () => {
 
         {/* Navigation Links (Desktop) */}
         <nav className="hidden lg:flex space-x-8 text-white text-sm font-medium">
-          <a href="#" className="hover:text-blue-400 transition duration-300 ">Features  <span className='pl-4'>.</span></a>
-          <a href="#" className="hover:text-blue-400 transition duration-300">Download app <span className='pl-4'>.</span></a>
-          <a href="#" className="hover:text-blue-400 transition duration-300">UI elements <span className='pl-4'>.</span></a>
-          <a href="#" className="hover:text-blue-400 transition duration-300">Testimonials <span className='pl-4'>.</span></a>
-          <a href="#" className="hover:text-blue-400 transition duration-300">FAQ <span className='pl-4'>.</span></a>
+          <Link to="/" className="hover:text-blue-400 transition duration-300">
+            Home <span className="pl-4">.</span>
+          </Link>
+
+          <Link
+            to="/blog"
+            className="hover:text-blue-400 transition duration-300"
+          >
+            Blog <span className="pl-4">.</span>
+          </Link>
+
+          <Link
+            to="/post"
+            className="hover:text-blue-400 transition duration-300"
+          >
+            Post <span className="pl-4">.</span>
+          </Link>
+
+          <Link
+            to="/404"
+            className="hover:text-blue-400 transition duration-300"
+          >
+            NotFound  <span className="pl-4">.</span>
+          </Link>
+
+          <Link
+            to="/popup"
+            className="hover:text-blue-400 transition duration-300"
+          >
+            Popup <span className="pl-4">.</span>
+          </Link>
         </nav>
 
         {/* Free Trial Button & Contact */}
@@ -32,11 +56,7 @@ const Navigation = () => {
         </div>
       </div>
     </header>
+  );
+};
 
-
-
-
-  )
-}
-
-export default Navigation
+export default Navigation;

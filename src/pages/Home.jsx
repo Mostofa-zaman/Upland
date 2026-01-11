@@ -9,13 +9,13 @@ import AboutSlider from '../components/testimonial/AboutSlider'
 import Get300 from '../components/get300/Get300'
 import FAQ from '../components/faq/FAQ'
 import News from '../components/news/News'
-import Footer from '../components/footer/Footer'
+
 
 
 const Home = () => {
   return (
     <>
-    <Menu/>
+  
     <Banner/>
     <Feature/>
     <Popular/>
@@ -25,7 +25,7 @@ const Home = () => {
     <Get300/>
     <FAQ/>
     <News/>
-    <Footer/>
+    
     
     </>
   )
