@@ -1,5 +1,19 @@
-
-
-
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Darker+Grotesque:wght@400;500;600;700&family=Cutive+Mono&display=swap");
 
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Darker+Grotesque:wght@400;500;600;700&family=Cutive+Mono&display=swap");
+
+/* utility classes – tailwind ছাড়াই কাজ করবে */
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-darker {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.font-mono {
+  font-family: "Cutive Mono", monospace;
+}
