@@ -1,5 +1,13 @@
-import { FiSearch } from "react-icons/fi";
+import { FiMessageCircle, FiSearch } from "react-icons/fi";
 import BlogCategoryreusable from "../../reusable/BlogCategoryreusable";
+import Calendar from "../../reusable/Calendar";
+import img1 from '../../../assets/img1.jpg'
+import img2 from '../../../assets/img2.jpg'
+import img3 from '../../../assets/img1.jpg'
+import img4 from '../../../assets/img4.jpg'
+import img5 from '../../../assets/img1.jpg'
+import img6 from '../../../assets/img3.jpg'
+const images = [img1, img2, img3, img4, img5, img6 ];
 
 const BlogCategory = () => {
   return (
@@ -11,34 +19,73 @@ const BlogCategory = () => {
             <BlogCategoryreusable />
             <BlogCategoryreusable />
           </div>
-    <div className="flex flex-col justify-between">
-  {/* <button
-    type="button"
-    className="flex   text-black px-20 py-2 rounded-lg shadow-md transition-colors duration-300"
-  >
-    Search
-   <div className="absulute    translate-x-[150px]">
-     <FiSearch className="w-5 h-5" color="red" />
-   </div>
-  </button> */}
+          <div className="">
+            <div className="flex flex-col pb-15 ">
+              <button
+                type="button"
+                className="flex items-center gap-2 justify-between border border-gray-400 text-black px-6 py-2 rounded-lg shadow-md transition-all duration-300"
+              >
+                <span>Search</span>
+                <FiSearch className="w-5 h-5" />
+              </button>
+            </div>
+            <h3 className="text-[28px] font-semibold">Recent posts</h3>
+            <span>
+              - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{" "}
+            </span>
+            <p>Dec 10, 2020</p>
+            <h3>Launch of a new convenient feature this Saturday...</h3>
+            <h3>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor...
+            </h3>
+            <p>Dec 10, 2020</p>
+            <h2>What you need to know before using Upland Application</h2>
+            <h3>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor...
+            </h3>
+            <h3 className="text-[28px] font-semibold">Recent comments</h3>
+            <span>
+              - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{" "}
+            </span>
 
-  
+            <FiMessageCircle className="w-5 h-5" />
+            <h4>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor...
+            </h4>
+            <FiMessageCircle className="w-5 h-5" />
+            <h4>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor...
+            </h4>
+            <FiMessageCircle className="w-5 h-5" />
+            <h4>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor...
+            </h4>
+            <h3 className="text-[28px] font-semibold">December 2020</h3>
+            <span>
+              - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{" "}
+            </span>
 
-<form class="max-w-md mx-auto">   
-    <label for="search" class="block mb-2.5 text-sm font-medium text-heading sr-only ">Search</label>
-    <div class="relative">
-        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-            <svg class="w-4 h-40 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
-        </div>
-        <input type="search" id="search" class="block w-full p-3 ps-9 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body" placeholder="Search" required />
-        <button type="button" class="absolute end-1.5 bottom-1.5 text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 focus:outline-none">Search</button>
+            <Calendar />
+           <div className="grid grid-cols-3 gap-4">
+  {images.map((img, index) => (
+    <div
+      key={index}
+      className="w-24 h-24  overflow-hidden border"
+    >
+      <img
+        src={img}
+        alt={`image-${index}`}
+        className="w-full h-full object-cover"
+      />
     </div>
-</form>
-
-
+  ))}
 </div>
+<h6>Tags</h6>
+ <span>
+              - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{" "}
+            </span>
 
-
+          </div>
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-    <header className="absolute top-0 left-0 right-0 z-10 py-4 px-6 md:px-12 lg:px-24 bg-sky-700  fixed">
+    <header className="absolute top-0 left-0 right-0  py-4 px-6 md:px-12 lg:px-24 bg-sky-700 z-50  fixed">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-white text-2xl font-bold tracking-wider">
