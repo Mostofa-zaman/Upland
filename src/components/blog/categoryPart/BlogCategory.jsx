@@ -50,8 +50,9 @@ const BlogCategory = () => {
                 Dec 10, 2020
               </p>
               <h3 className="text-[22px] font-normal font-mono">
-                Launch of a new convenient feature this Saturday...
-              </h3>
+  Launch of a new convenient feature this Saturday...
+</h3>
+
 
               <h4 className="text-[18px] font-normal font-roboto">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor...
