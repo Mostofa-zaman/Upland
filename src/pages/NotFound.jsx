@@ -1,8 +1,11 @@
 import React from 'react'
+import NotFoundBanner from '../components/notfound/NotFoundBanner'
 
 const NotFound = () => {
   return (
-    <div>NotFoundmldslmwsdl</div>
+    <>
+    <NotFoundBanner/>
+    </>
   )
 }
 

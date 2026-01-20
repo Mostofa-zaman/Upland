@@ -2,21 +2,21 @@ import popup from "../assets/popup.png";
 
 const Popup = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="relative flex items-center">
-        
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="relative flex items-center justify-center">
+
         {/* LEFT IMAGE (behind card) */}
         <img
           src={popup}
           alt="Left decoration"
-          className="absolute -left-32 bottom-0 w-40 z-0"
+          className="hidden sm:block absolute -left-24 md:-left-32 bottom-0 w-28 sm:w-32 md:w-40 z-0"
         />
 
         {/* MAIN CARD */}
-        <div className="relative z-10 w-[420px] rounded-2xl overflow-hidden">
-          <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-violet-500 p-8 text-white">
+        <div className="relative z-10 w-full max-w-[420px] rounded-2xl overflow-hidden">
+          <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-violet-500 p-6 sm:p-8 text-white">
             
-            <h2 className="text-3xl font-semibold">
+            <h2 className="text-2xl sm:text-3xl font-semibold leading-snug">
               Get A Free Trial For <br />
               <span className="text-orange-400 font-bold">30 Days</span>
             </h2>
@@ -43,7 +43,7 @@ const Popup = () => {
                 rows="4"
                 placeholder="Message"
                 className="w-full px-5 py-3 rounded-2xl bg-white text-gray-800 placeholder-gray-400 outline-none resize-none"
-              ></textarea>
+              />
 
               <button
                 type="submit"
@@ -52,6 +52,7 @@ const Popup = () => {
                 Get A Free Trial
               </button>
             </form>
+
           </div>
         </div>
       </div>
