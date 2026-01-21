@@ -1,5 +1,5 @@
 import { FiMessageCircle, FiSearch } from "react-icons/fi";
-import BlogCategoryreusable from "../../reusable/BlogCategoryreusable";
+import BlogCategoryReusable from "../../reusable/BlogCategoryReusable";
 import Calendar from "../../reusable/Calendar";
 import img1 from "../../../assets/img1.jpg";
 import img2 from "../../../assets/img2.jpg";
@@ -27,9 +27,10 @@ const BlogCategory = () => {
             
             {/* Blog list */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-10">
-              <BlogCategoryreusable />
-              <BlogCategoryreusable />
-              <BlogCategoryreusable />
+              <BlogCategoryReusable />
+              <BlogCategoryReusable />
+              <BlogCategoryReusable />
+             
             </div>
 
             {/* Sidebar */}
