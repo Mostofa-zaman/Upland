@@ -27,7 +27,7 @@ const Navigation = () => {
             <Link to="/post" className="hover:text-blue-400 transition">
               Post <span className="pl-4">.</span>
             </Link>
-            <Link to="/404" className="hover:text-blue-400 transition">
+            <Link to="/notfound" className="hover:text-blue-400 transition">
               NotFound <span className="pl-4">.</span>
             </Link>
             <Link to="/popup" className="hover:text-blue-400 transition">
@@ -87,7 +87,7 @@ const Navigation = () => {
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/blog" onClick={() => setIsOpen(false)}>Blog</Link>
           <Link to="/post" onClick={() => setIsOpen(false)}>Post</Link>
-          <Link to="/404" onClick={() => setIsOpen(false)}>NotFound</Link>
+          <Link to="/notfound" onClick={() => setIsOpen(false)}>NotFound</Link>
           <Link to="/popup" onClick={() => setIsOpen(false)}>Popup</Link>
         </nav>
       </div>

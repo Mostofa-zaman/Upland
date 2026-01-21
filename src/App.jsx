@@ -18,10 +18,11 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="post" element={<Post />} />
           <Route path="popup" element={<Popup />} />
+          <Route path="notfound" element={<NotFound />} />
         </Route>
 
         {/* 404 */}
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>
   );

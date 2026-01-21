@@ -54,8 +54,9 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <footer className="bg-gradient-to-b from-[#6C45C1] to-[#5437B2] w-full py-10 mt-20">
-        <div className="max-w-6xl mx-auto px-4 text-white flex flex-col gap-8">
+      <footer className="bg-gradient-to-b  w-full py-10 mt-20">
+       <div className="absolute inset-0  bg-[url('/src/assets/footerimg2.png')] bg-cover bg-center "></div>
+        <div className="max-w-6xl mx-auto px-4 text-white flex flex-col gap-8 z-10 relative ">
 
           {/* Menu & Button */}
           <div className="flex flex-wrap gap-6 sm:gap-10 justify-center items-center">
