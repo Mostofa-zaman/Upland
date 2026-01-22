@@ -30,7 +30,6 @@ const BlogCategory = () => {
               <BlogCategoryReusable />
               <BlogCategoryReusable />
               <BlogCategoryReusable />
-              <BlogCategoryReusable />
              
             </div>
 
