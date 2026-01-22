@@ -8,6 +8,7 @@ import img4 from "../../assets/img4.jpg";
 import img5 from "../../assets/img1.jpg";
 import img6 from "../../assets/img3.jpg";
 import fox from "../../assets/fox.png";
+import postimg from "../../assets/post.png";
 
 const images = [img1, img2, img3, img4, img5, img6];
 
@@ -27,6 +28,7 @@ const PostCategoryDetails = () => {
           <div className="w-full max-w-[760px]">
             {/* Banner */}
             <div className="bg-[#e3e6ff] h-60 sm:h-72 md:h-80 relative rounded-2xl">
+              <img className="h-full w-full" src={postimg} alt="" />
               <span className="absolute bottom-0 left-6 sm:left-10 bg-orange-500 text-white text-xs font-bold px-2 py-4 rounded-t">
                 DEC <br /> 10
               </span>

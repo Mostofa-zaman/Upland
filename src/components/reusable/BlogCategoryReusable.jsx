@@ -1,10 +1,12 @@
-import React from 'react'
+
+import blogimg from '../../assets/blogimg.png'
 
 const BlogCategoryreusable = () => {
   return (
      <div className=" bg-white rounded-2xl shadow-lg overflow-hidden">
       {/* Image section */}
-      <div className="bg-[#e3e6ff] h-80 relative">
+      <div className=" h-80 relative">
+      <img className='bg-cover h-80 w-full' src={blogimg} alt="" />
         <span className="absolute bottom-0 left-4 bg-orange-500 text-white text-xs font-bold px-2 py-4 rounded-t">
           DEC <br/> 10
         </span>
